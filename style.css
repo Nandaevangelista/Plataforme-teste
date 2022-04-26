@@ -1,0 +1,316 @@
+body {
+    font-family: 'Rokkitt', serif;
+    font-family: 'Saira', sans-serif;  
+    /* background-color: rgb(9, 9, 83); */
+}
+
+.itens {
+    font-style: italic;
+        
+}
+
+header {
+    background-color: rgb(9, 9, 83);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    margin: auto;
+}
+
+.logo {
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 40px;
+} 
+
+nav {
+    position: absolute;
+    top: 200px;
+    right: 340px;
+    margin-right: 30px;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 30px;
+    
+    
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #01C3D2;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+/* CSS da página index */ 
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    color: rgb(9, 9, 83);
+    text-align: center;
+    font-size: 2em;
+    padding: 30px;
+    margin: 0 0 0 0;
+    
+      
+}
+
+.principal {
+    background-color: #01C3D2;
+    color: white;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px 40px 60px 40px;
+    margin: 40px 10px 20px 10px;
+    box-shadow: 4px 3px 10px 5px #01a7b32f;
+    
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.titulo-aprender{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgb(9, 9, 83);
+    text-align: center;
+}
+
+.aprender {
+    line-height: 1.5;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    text-align: auto;
+    margin-left: 3%;
+    margin-top: 80px;
+    margin-right: 3%;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imagemaprender {
+    margin-top: 10px;
+    width: 60%;
+}
+
+.caixa-aprender {
+    border: solid rgb(247, 246, 246);
+    border-radius: 5px;
+    margin: 40px 10px 20px 0;
+    padding: 1%;
+    background-color: rgb(247, 246, 246);
+    color: black;
+    box-shadow: 4px 3px 20px 5px rgba(102, 101, 101, 0.137);
+}
+
+.security-hacking {
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0 ;
+    
+}
+
+.conteudo {
+    text-align: justify;
+    font-size: 18px;
+    background-color: #01C3D2;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 40px 60px 40px;
+    margin: 40px 10px 40px 10px;
+    line-height: 1.5;
+    box-shadow: 4px 3px 10px 5px #01a7b32f;
+
+}
+
+
+/* CURSOS */
+
+.produtos {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 340px;
+    vertical-align: top;
+    margin: 20px 20px 20px 20px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: rgb(9, 9, 83);
+    border-width: 2px;
+    border-style: solid; 
+    border-top-width: 10px;
+    border-radius: 4px;
+    background-color: white;
+    opacity: 0.9;
+   
+}
+
+.produtos li:hover {
+    border-color: #01C3D2;
+    opacity: 1;
+    box-shadow: 4px 3px 10px 5px #01a7b32f;
+    transition: 400ms;
+    
+}
+
+.produtos li:active {
+    border-color: rgb(143, 5, 5);
+}
+
+.produtos li:hover h2{
+    font-size: 33px;
+   
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos img {
+    max-width: 100%;
+    margin-left: 0%;
+    margin-top: 10px;
+}
+
+.descricao {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* CONTATO */
+
+form {
+    margin: 20px 0;
+    width: 940px;
+    background-color: white;
+    padding: 5% 10%;  
+    border-radius: 8px;
+}  
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 15px;
+    padding: 10px 20px;
+    width: 50%; /* tamanho lateral da caixa */
+}
+
+
+.horario {
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.legendahorario {
+font-size: 20px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0px;
+    font-size: 20px;
+    background-color: #01C3D2;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #02a5b1;
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+footer {
+    text-align: center;
+    background-color: #01C3D2;
+    padding: 40px;
+}
+
+.copyright {
+    color:white;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .itens, main, .caixa, .principal, .conteudo {
+        width: auto;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+    
+    .aprender, .imagemaprender {
+        width: 100%;
+    }
+
+    .produtos {
+        width: 100%;
+    }
+
+    form {
+        width: auto;
+    }
+}
+    

@@ -1,0 +1,54 @@
+body {
+    background-color: var(--azulescuro-titulo);
+    color: var(--branco);
+}
+
+header {
+    background-color: var(--verde-agua);
+    text-align: left;
+    font-size: 15px;
+    color: var(--branco);
+    margin: 0%;
+    padding: 1px 1px 1px 30px; 
+}
+
+#banner {
+    display: block;
+    margin: auto;
+}
+
+#principal {
+    background-color: var(--verde-agua);
+    color: var(--preto);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.aprender {
+    font-size: 16px;
+    background-color: var(--preto); 
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+
+.imagemaprender {
+    width: 250px;
+    margin-top: 15px;
+}
+
+.itens {
+    font-style: italic;
+        
+}
+
+.conteudo {
+    text-align: center;
+    font-size: 18px;
+}
